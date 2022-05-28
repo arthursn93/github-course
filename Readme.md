@@ -1,9 +1,10 @@
-# Github Aula - 2022
-
-Arquivo da aula de Git e Github para iniciantes.
-
-Saiba mais em [thurnunes.com.br](https://twitter.com/arthursn93)
-
-Gostou do que viu? Quer mais? Ajude com uma doação, até um café! :P
-
-Estou aprendendo mais sobre Github para atuar com Sistemas de Legado do Itaú!
+# Github
+Introdução
+O exame AWS Certified Cloud Practitioner (CLF-C01) destina-se a pessoas que podem demonstrar efetivamente um conhecimento geral da Nuvem AWS, independentemente de uma função de trabalho específica.
+O exame valida a capacidade de um candidato de concluir as seguintes tarefas:
+ Explicar o valor da Nuvem AWS
+ Compreender e explicar o modelo de responsabilidade compartilhada da AWS
+ Entender as práticas recomendadas de segurança
+ Compreender as práticas de faturamento, economia e custos da Nuvem AWS
+ Descrever e posicionar os principais serviços da AWS, incluindo computação, rede, bancos de dados e armazenamento
+ Identificar serviços da AWS para casos de uso comuns
