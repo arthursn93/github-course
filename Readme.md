@@ -118,3 +118,54 @@ $ git push -u origin master
   comando + arquivo de origem + branch
 Na 2x
 $ git push
+
+
+Clonando um repositorio para outro
+$ git clone git@github.com:arthursn93/github-course.git github-course-clone
+
+Criar branch
+$ git checkout -b testing
+
+Lista as branchs
+$ git branch
+
+Acessar branch
+$ git checkout testing (ou master)
+
+Deletar uma branch específica
+$ git branch -D testing (ou qualquer outra branch)
+
+Junta arquivos de branchs diferentes, porém em linhas diferentes da feature (Ex: master e test)
+$ git merge test
+
+Obs: num cenário onde tenho 3 arquivos, sendo que 2 estão na branch master e 1 na branch test:
+
+vim foo  (master)
+vim bar  (test)
+vim buzz (master)
+
+Obs: validar as branchs pelo (git log) e/ou (git log --graph)
+
+Junta arquivos de branchs diferentes, porém na mesma linha da feature (Ex: apenas master)
+$ git rebase test2
+
+Ignora arquivos específicos de repositorio
+$ vi .gitignore
+- Ex: db.xls
+
+Salva seu arquivo e deixa em WIP (Working in Progress) dentro da branch.
+Obs: Não será utilizado no commit, apenas irá guardar aquelas modificações na branch
+$ git stash
+
+Você volta a mexer com o arquivo que foi alterado em estado WIP
+$ git stash apply
+
+Lista todos os arquivos em estado WIP (Working in Progress)
+$ git stash list
+
+Limpa todos os arquivos em estado WIP (Working in Progress)
+$ git stash clear
+
+Alias em comandos git (Ex: git status -------> git s)
+$ git config --global alias.s status
+$ git status -------------> $ git s
